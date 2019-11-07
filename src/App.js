@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AppRouter from './Config/Router/router'
+
 
 class App extends React.Component{
   render(){
     return(
-      
+      <div>
+      <AppRouter />
+
+
+
+
+     
+     
+      </div>
     )
   }
 }
